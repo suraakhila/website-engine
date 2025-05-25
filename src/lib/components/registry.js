@@ -547,6 +547,160 @@ export const componentRegistry = {
       },
     },
   },
+  suraakhila_home: {
+    name: 'SuraAkhila Hero',
+    description: 'Premium hero section for SuraAkhila beauty salon',
+    variants: {
+      1: {
+        name: 'Luxury Hero',
+        description: 'Full-screen hero with logo, tagline, and CTA',
+        schema: {
+          title: { type: 'text', label: 'Tagline' },
+          subtitle: { type: 'text', label: 'Subheading' },
+          logo_url: { type: 'image', label: 'Logo Image' },
+          background_url: { type: 'image', label: 'Background Image' },
+          cta_text: { type: 'text', label: 'CTA Button Text' },
+          cta_link: { type: 'text', label: 'CTA Button Link' },
+        },
+      },
+    },
+  },
+  suraakhila_about: {
+    name: 'SuraAkhila About',
+    description: 'About section for SuraAkhila beauty salon',
+    variants: {
+      1: {
+        name: 'About Story',
+        description: 'Story, vision, and values',
+        schema: {
+          title: { type: 'text', label: 'Section Title' },
+          subtitle: { type: 'text', label: 'Section Subtitle' },
+          description: { type: 'textarea', label: 'About Text' },
+          image_url: { type: 'image', label: 'About Image' },
+        },
+      },
+    },
+  },
+  suraakhila_services: {
+    name: 'SuraAkhila Services',
+    description: 'Services section for SuraAkhila beauty salon',
+    variants: {
+      1: {
+        name: 'Services Grid',
+        description: 'Grid of services with images and prices',
+        schema: {
+          title: { type: 'text', label: 'Section Title' },
+          subtitle: { type: 'text', label: 'Section Subtitle' },
+        },
+        itemSchema: {
+          title: { type: 'text', label: 'Service Name' },
+          description: { type: 'textarea', label: 'Service Description' },
+          image_url: { type: 'image', label: 'Service Image' },
+          price: { type: 'text', label: 'Price' },
+        },
+      },
+    },
+  },
+  suraakhila_pricing: {
+    name: 'SuraAkhila Pricing',
+    description: 'Pricing section for SuraAkhila beauty salon',
+    variants: {
+      1: {
+        name: 'Pricing Cards',
+        description: 'Cards for packages/services',
+        schema: {
+          title: { type: 'text', label: 'Section Title' },
+          subtitle: { type: 'text', label: 'Section Subtitle' },
+        },
+        itemSchema: {
+          title: { type: 'text', label: 'Package Name' },
+          price: { type: 'text', label: 'Price' },
+          description: { type: 'textarea', label: 'Description' },
+          features: { type: 'list', label: 'Features' },
+          cta_text: { type: 'text', label: 'CTA Text' },
+          cta_link: { type: 'text', label: 'CTA Link' },
+        },
+      },
+    },
+  },
+  suraakhila_reviews: {
+    name: 'SuraAkhila Reviews',
+    description: 'Client testimonials for SuraAkhila beauty salon',
+    variants: {
+      1: {
+        name: 'Reviews Grid',
+        description: 'Grid of client reviews',
+        schema: {
+          title: { type: 'text', label: 'Section Title' },
+          subtitle: { type: 'text', label: 'Section Subtitle' },
+        },
+        itemSchema: {
+          title: { type: 'text', label: 'Client Name' },
+          subtitle: { type: 'text', label: 'Client Info' },
+          description: { type: 'textarea', label: 'Review' },
+          image_url: { type: 'image', label: 'Client Image' },
+          rating: { type: 'number', label: 'Rating' },
+        },
+      },
+    },
+  },
+  suraakhila_contact: {
+    name: 'SuraAkhila Contact',
+    description: 'Contact section for SuraAkhila beauty salon',
+    variants: {
+      1: {
+        name: 'Contact Form',
+        description: 'Form, map, info, quick links, subscribe',
+        schema: {
+          title: { type: 'text', label: 'Section Title' },
+          subtitle: { type: 'text', label: 'Section Subtitle' },
+          phone: { type: 'text', label: 'Phone' },
+          email: { type: 'text', label: 'Email' },
+          hours: { type: 'text', label: 'Working Hours' },
+          location: { type: 'text', label: 'Location' },
+          map_url: { type: 'text', label: 'Map Embed URL' },
+          quicklinks: { type: 'list', label: 'Quick Links' },
+        },
+      },
+    },
+  },
+  suraakhila_booking: {
+    name: 'SuraAkhila Booking',
+    description: 'Booking section for SuraAkhila beauty salon',
+    variants: {
+      1: {
+        name: 'Booking Form',
+        description: 'Premium booking form for appointments',
+        schema: {
+          title: { type: 'text', label: 'Section Title' },
+          subtitle: { type: 'text', label: 'Section Subtitle' },
+          description: { type: 'textarea', label: 'Section Description' },
+          cta_text: { type: 'text', label: 'Button Text' }
+        },
+        itemSchema: {},
+      },
+    },
+  },
+  suraakhila_footer: {
+    name: 'SuraAkhila Footer',
+    description: 'Footer section for SuraAkhila beauty salon',
+    variants: {
+      1: {
+        name: 'Luxury Footer',
+        description: 'Premium footer with quick links and subscribe',
+        schema: {
+          logo_text: { type: 'text', label: 'Logo Text' },
+          description: { type: 'text', label: 'Footer Description' },
+          quick_links: { type: 'array', label: 'Quick Links' },
+          address: { type: 'text', label: 'Address' },
+          phone: { type: 'text', label: 'Phone' },
+          email: { type: 'text', label: 'Email' },
+          copyright: { type: 'text', label: 'Copyright' }
+        },
+        itemSchema: {},
+      },
+    },
+  },
 };
 
 /**

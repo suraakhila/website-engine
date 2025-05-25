@@ -1,26 +1,32 @@
 // Import all section components
-import Header1 from './Header1';
-import Header2 from './Header2';
-import Header3 from './Header3';
-import Hero1 from './Hero1';
-import Hero2 from './Hero2';
-import About1 from './About1';
-import Services1 from './Services1';
-import Testimonial1 from './Testimonial1';
-import FAQ1 from './FAQ1';
-import Contact1 from './Contact1';
-import Footer1 from './Footer1';
-import Footer2 from './Footer2';
-import Gallery1 from './Gallery1';
-import Gallery2 from './Gallery2';
-import Features1 from './Features1';
-import Features2 from './Features2';
-import Pricing1 from './Pricing1';
-import Pricing2 from './Pricing2';
-import CTA1 from './CTA1';
-import CTA2 from './CTA2';
-import Team1 from './Team1';
-import Team2 from './Team2';
+// import Header1 from './Header1';
+// import Header2 from './Header2';
+// import Header3 from './Header3';
+// import Hero1 from './Hero1';
+// import Hero2 from './Hero2';
+// import About1 from './About1';
+// import Services1 from './Services1';
+// import Testimonial1 from './Testimonial1';
+// import FAQ1 from './FAQ1';
+// import Contact1 from './Contact1';
+// import Footer1 from './Footer1';
+// import Footer2 from './Footer2';
+// import Gallery1 from './Gallery1';
+// import Gallery2 from './Gallery2';
+// import Features1 from './Features1';
+// import Features2 from './Features2';
+// import Pricing1 from './Pricing1';
+// import Pricing2 from './Pricing2';
+// import CTA1 from './CTA1';
+// import CTA2 from './CTA2';
+// import Team1 from './Team1';
+// import Team2 from './Team2';
+import SuraAkhilaHome from './SuraAkhilaHome';
+import SuraAkhilaAbout from './SuraAkhilaAbout';
+import SuraAkhilaServices from './SuraAkhilaServices';
+import SuraAkhilaPricing from './SuraAkhilaPricing';
+import SuraAkhilaReviews from './SuraAkhilaReviews';
+import SuraAkhilaContact from './SuraAkhilaContact';
 
 // Map component keys to their respective React components
 export const componentMap = {
@@ -58,7 +64,13 @@ export const componentMap = {
   cta_2: CTA2,
   // Team
   team_1: Team1,
-  team_2: Team2
+  team_2: Team2,
+  suraakhila_home_1: SuraAkhilaHome,
+  suraakhila_about_1: SuraAkhilaAbout,
+  suraakhila_services_1: SuraAkhilaServices,
+  suraakhila_pricing_1: SuraAkhilaPricing,
+  suraakhila_reviews_1: SuraAkhilaReviews,
+  suraakhila_contact_1: SuraAkhilaContact
 };
 
 // Helper function to get component by type and variant

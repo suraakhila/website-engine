@@ -16,7 +16,8 @@
       "og_image": "https://via.placeholder.com/1200x630",
       "favicon": "https://via.placeholder.com/32x32",
       "keywords": "demo, website, modular, builder",
-      "twitter_handle": "@demosite"
+      "twitter_handle": "@demosite",
+      "logo_text": "Sura Akhila"
     },
     "config": {
       "id": "56a779ad-a561-41e5-b988-11bdc5628491",
@@ -66,211 +67,345 @@
         "id": "a6452a55-af24-40db-9490-42852c3e7b9a",
         "site_id": "4fafcd74-7ba1-48a2-937f-4a46a5010c37",
         "slug": "home",
-        "title": "Home Page",
+        "title": "Sura Akhila Beauty Salon",
         "sections": [
           {
-            "id": "8d8d8b47-f240-4b64-9f8a-c0f72c737ced",
+            "id": "section-hero",
             "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
-            "type": "header",
+            "type": "suraakhila_home",
             "variant": "1",
             "position": 1,
             "is_active": true,
             "content": {
-              "id": "9b742a78-b86f-4a6a-9f0c-f39747ec5d3f",
-              "section_id": "8d8d8b47-f240-4b64-9f8a-c0f72c737ced",
-              "title": "New Section",
-              "subtitle": "Subtitle",
-              "description": "Description for the new section",
-              "image_url": "https://i.ibb.co/2LcZ3BQ/logo.webp",
-              "background_url": null,
-              "cta_text": "Get Started",
-              "cta_link": "/contact"
+              "title": "Experience True Luxury Beauty",
+              "subtitle": "Where elegance meets expertise. Discover the art of self-care.",
+              "background_url": "/salon-hero.jpg"
             },
             "items": []
           },
           {
-            "id": "d7592df9-ae00-40a2-bdc5-fdddf326e59a",
+            "id": "section-about",
             "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
-            "type": "hero",
-            "variant": "2",
+            "type": "suraakhila_about",
+            "variant": "1",
             "position": 2,
             "is_active": true,
             "content": {
-              "id": "a6aa9cff-ca3a-47f2-934d-7a0e4fc0fcf3",
-              "section_id": "d7592df9-ae00-40a2-bdc5-fdddf326e59a",
-              "title": "Build Beautiful barber shop",
-              "subtitle": "Modern Web Development",
-              "description": "Our modular website builder allows you to create stunning websites with ease. No coding required.",
-              "image_url": "https://i.ibb.co/2LcZ3BQ/logo.webp",
-              "background_url": null,
-              "cta_text": "Get Started",
-              "cta_link": "/contact"
+              "title": "Our Story",
+              "subtitle": "Vision & Values",
+              "description": "At Sura Akhila, we believe beauty is an experience. Our journey began with a passion for elegance and a commitment to excellence. We blend artistry, innovation, and care to create a sanctuary for self-renewal.",
+              "image_url": "/about-salon.jpg"
             },
             "items": []
           },
           {
-            "id": "a088a10c-5616-42c0-a90a-c5b19544c757",
+            "id": "section-services",
             "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
-            "type": "services",
+            "type": "suraakhila_services",
             "variant": "1",
             "position": 3,
             "is_active": true,
             "content": {
-              "id": "9122a11d-fcb9-4109-a182-8f45fa2a3df1",
-              "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
               "title": "Our Services",
-              "subtitle": "What We Offer",
-              "description": "We provide a range of services to help your business grow online.",
-              "image_url": null,
-              "background_url": null,
-              "cta_text": "View All Services",
-              "cta_link": "/services"
+              "subtitle": "Indulge in our signature treatments."
             },
             "items": [
               {
-                "id": "697983ce-5f8b-46db-89be-22e6471f3f5a",
-                "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
-                "title": "Web Development",
-                "subtitle": "Custom Solutions",
-                "description": "We build responsive, fast-loading websites that look great on any device.",
-                "icon": "code",
-                "image_url": "https://via.placeholder.com/400x300",
-                "rating": null,
-                "price": null,
-                "duration": null,
-                "tag": null,
-                "position": 0
+                "id": "service-1",
+                "title": "Luxury Facial",
+                "description": "A rejuvenating facial using premium products for radiant skin.",
+                "image_url": "/services/facial.jpg"
               },
               {
-                "id": "8838565f-e964-40be-b8b8-5c0e38180d80",
-                "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
-                "title": "E-commerce",
-                "subtitle": "Online Stores",
-                "description": "Create your online store with secure payment processing and inventory management.",
-                "icon": "search",
-                "image_url": "https://via.placeholder.com/400x300",
-                "rating": null,
-                "price": null,
-                "duration": null,
-                "tag": null,
-                "position": 1
+                "id": "service-2",
+                "title": "Signature Hair Spa",
+                "description": "Revitalize your hair with our nourishing spa treatment.",
+                "image_url": "/services/hair4.jpg"
+              },
+        
+              {
+                "id": "service-3",
+                "title": "Ayurvedic Body Wrap",
+                "description": "Detoxify and nourish your skin with our herbal body wrap.",
+                "image_url": "/services/body1.jpg"
               },
               {
-                "id": "19d93208-162d-46b8-a57c-69294d21ab14",
-                "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
-                "title": "SEO Optimization",
-                "subtitle": "Improve Rankings",
-                "description": "Enhance your online presence with our search engine optimization services.",
-                "icon": "share",
-                "image_url": "https://via.placeholder.com/400x300",
-                "rating": null,
-                "price": null,
-                "duration": null,
-                "tag": null,
-                "position": 2
+                "id": "service-4",
+                "title": "Keratin Hair Treatment",
+                "description": "Smooth and strengthen your hair with our keratin treatment.",
+                "image_url": "/services/mani-pedi.jpg"
+              },
+          
+              {
+                "id": "service-5",
+                "title": "Bridal Makeover",
+                "description": "Transform into your most radiant self for your special day.",
+                "image_url": "/services/bridal1.jpg"
+              },
+              {
+                "id": "service-6",
+                "title": "Bridal Grooming",
+                "description": "Tailored grooming services for the modern bride.",
+                "image_url": "/services/bridal2.jpg"
+              },
+              {
+                "id": "service-7",
+                "title": "Royal Body Massage",
+                "description": "Relax and rejuvenate with our signature royal massage.",
+                "image_url": "/services/body2.jpg"
+              },
+              {
+                "id": "service-8",
+                "title": "Express Glow Facial",
+                "description": "Quick radiance boost for busy schedules.",
+                "image_url": "/services/facial3.jpg"
+              },
+              {
+                "id": "service-9",
+                "title": "Organic Herbal Facial",
+                "description": "A soothing facial using organic herbal extracts for sensitive skin.",
+                "image_url": "/services/facial4.jpg"
+              },
+            
+              {
+                "id": "service-10",
+                "title": "Gold Leaf Facial",
+                "description": "Indulge in a facial infused with real gold leaf for ultimate glow.",
+                "image_url": "/services/facials5.jpg"
+              },
+              {
+                "id": "service-11",
+                "title": "Moroccan Oil Hair Ritual",
+                "description": "Deeply nourish hair and scalp with premium Moroccan oils.",
+                "image_url": "/services/hair5.jpg"
+              },
+             
+              {
+                "id": "service-12",
+                "title": "HydraGlow Facial",
+                "description": "Hydrating facial for instant plumpness and radiance.",
+                "image_url": "/services/facial2.jpg"
+              },
+              {
+                "id": "service-13",
+                "title": "Aromatherapy Candle Massage",
+                "description": "Relax with a warm candle oil massage and soothing aromas.",
+                "image_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80"
+              },
+           
+              {
+                "id": "service-14",
+                "title": "Ultimate Bridal Package",
+                "description": "All-in-one luxury package for the bride-to-be.",
+                "image_url": "/services/bridal3.jpg"
+              },
+              {
+                "id": "service-15",
+                "title": "Haircut & Styling",
+                "description": "Trendy cuts and personalized styling to match your unique look.",
+                "image_url": "/services/hair1.jpg"
+              },
+              {
+                "id": "service-16",
+                "title": "Hair Botox Treatment",
+                "description": "Deep conditioning treatment to repair damaged hair and restore volume.",
+                "image_url": "/services/hair2.jpg"
+              },
+              {
+                "id": "service-17",
+                "title": "Hair Design",
+                "description": "Elegant and lasting bridal hairstyles tailored for your big day.",
+                "image_url": "/services/hair3.jpg"
+              },
+              {
+                "id": "service-18",
+                "title": "Aromatherapy Body Massage",
+                "description": "Relieve stress and uplift your senses with essential oil-infused massage therapy.",
+                "image_url": "/services/body3.jpg"
+              },
+              {
+                "id": "service-19",
+                "title": "Herbal Steam Body Therapy",
+                "description": "Open pores and detox your body with a soothing herbal steam experience.",
+                "image_url": "/services/body4.jpg"
+              },
+              {
+                "id": "service-20",
+                "title": "Men’s Styling",
+                "description": "Trendy and tailored haircuts and styling for the modern man.",
+                "image_url": "/services/men1.jpg"
+              },
+              {
+                "id": "service-21",
+                "title": "Men's Beard Styling & Grooming",
+                "description": "Precision beard trimming and grooming to define your perfect look.",
+                "image_url": "/services/men2.jpg"
               }
+              
+              
+              
+              
             ]
           },
           {
-            "id": "53760ad3-06dc-43f9-ad66-c42937f90aeb",
+            "id": "section-pricing",
             "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
-            "type": "about",
-            "variant": "1",
-            "position": 3,
-            "is_active": true,
-            "content": {
-              "id": "c401e429-d283-45bb-948d-4b4485b97e6c",
-              "section_id": "53760ad3-06dc-43f9-ad66-c42937f90aeb",
-              "title": "New Section",
-              "subtitle": "Subtitle",
-              "description": "Description for the new section",
-              "image_url": null,
-              "background_url": null,
-              "cta_text": null,
-              "cta_link": null
-            },
-            "items": []
-          },
-          {
-            "id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
-            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
-            "type": "testimonial",
+            "type": "suraakhila_pricing",
             "variant": "1",
             "position": 4,
             "is_active": true,
             "content": {
-              "id": "48813f16-3aea-471a-8df6-b3f999c5617d",
-              "section_id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
-              "title": "Customer Testimonials",
-              "subtitle": "What Our Clients Say",
-              "description": "Hear from our satisfied customers about their experience working with us.",
-              "image_url": null,
-              "background_url": null,
-              "cta_text": null,
-              "cta_link": null
+              "title": "Pricing & Packages",
+              "subtitle": "Choose the perfect package for you."
             },
             "items": [
               {
-                "id": "574ffd62-8291-4c24-9996-0022ae00bb93",
-                "section_id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
-                "title": "John Smith",
-                "subtitle": "CEO, TechStart",
-                "description": "Working with this team has been an incredible experience. Their attention to detail and commitment to excellence is unmatched.",
-                "icon": null,
-                "image_url": "https://via.placeholder.com/100x100",
-                "rating": 5,
-                "price": null,
-                "duration": null,
-                "tag": null,
-                "position": 0
+                "id": "pkg-1",
+                "title": "Gold Package",
+                "price": "$250",
+                "description": "The ultimate luxury experience for a full day of pampering.",
+                "features": ["Luxury Facial", "Signature Hair Spa", "Classic Mani-Pedi", "Champagne & Refreshments"],
+                "cta_text": "Book Gold",
+                "cta_link": "#contact"
               },
               {
-                "id": "8f60eb15-48cb-4332-9eb8-069c06116102",
-                "section_id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
-                "title": "Sarah Johnson",
-                "subtitle": "Marketing Director",
-                "description": "I was amazed at how quickly they understood our brand and delivered exactly what we needed. Highly recommended!",
-                "icon": null,
-                "image_url": "https://via.placeholder.com/100x100",
-                "rating": 5,
-                "price": null,
-                "duration": null,
-                "tag": null,
-                "position": 1
+                "id": "pkg-2",
+                "title": "Silver Package",
+                "price": "$180",
+                "description": "A half-day retreat for beauty and relaxation.",
+                "features": ["Luxury Facial", "Signature Hair Spa"],
+                "cta_text": "Book Silver",
+                "cta_link": "#contact"
               },
               {
-                "id": "350c0ae3-a23d-4f07-988d-cc5d384732f7",
-                "section_id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
-                "title": "Michael Brown",
-                "subtitle": "Small Business Owner",
-                "description": "Their work helped transform my business. Professional, responsive, and truly talented team.",
-                "icon": null,
-                "image_url": "https://via.placeholder.com/100x100",
-                "rating": 4,
-                "price": null,
-                "duration": null,
-                "tag": null,
-                "position": 2
+                "id": "pkg-3",
+                "title": "Bronze Package",
+                "price": "$120",
+                "description": "Essential treatments for a quick refresh.",
+                "features": ["Classic Mani-Pedi"],
+                "cta_text": "Book Bronze",
+                "cta_link": "#contact"
               }
             ]
           },
           {
-            "id": "0a07df4f-b9fb-45f5-843a-f5ae513d0e61",
+            "id": "section-reviews",
             "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
-            "type": "footer",
+            "type": "suraakhila_reviews",
+            "variant": "1",
+            "position": 5,
+            "is_active": true,
+            "content": {
+              "title": "Client Testimonials",
+              "subtitle": "What our clients say about us."
+            },
+            "items": [
+              {
+                "id": "review-1",
+                "title": "Sophia L.",
+                "subtitle": "Entrepreneur",
+                "description": "The most luxurious salon experience I've ever had. Every detail was perfect!",
+                "image_url": "/reviews/sophia.jpg",
+                "rating": 5
+              },
+              {
+                "id": "review-2",
+                "title": "Amir R.",
+                "subtitle": "Designer",
+                "description": "The staff are true professionals. I left feeling like royalty.",
+                "image_url": "/reviews/amir.jpg",
+                "rating": 5
+              },
+              {
+                "id": "review-3",
+                "title": "Priya S.",
+                "subtitle": "Consultant",
+                "description": "Beautiful ambiance, top-notch service, and amazing results!",
+                "image_url": "/reviews/priya.jpg",
+                "rating": 5
+              },
+              {
+                "id": "review-4",
+                "title": "Elena M.",
+                "subtitle": "Artist",
+                "description": "A truly pampering experience. The staff made me feel special from start to finish!",
+                "image_url": "/reviews/elena.jpg",
+                "rating": 5
+              },
+              {
+                "id": "review-5",
+                "title": "Ravi K.",
+                "subtitle": "Engineer",
+                "description": "Impeccable service and a beautiful ambiance. Highly recommended!",
+                "image_url": "/reviews/ravi.jpg",
+                "rating": 5
+              },
+              {
+                "id": "review-6",
+                "title": "Lina P.",
+                "subtitle": "Blogger",
+                "description": "The best salon in town for luxury treatments. I keep coming back!",
+                "image_url": "/reviews/lina.jpg",
+                "rating": 5
+              }
+            ]
+          },
+          {
+            "id": "section-booking",
+            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+            "type": "suraakhila_booking",
             "variant": "1",
             "position": 6,
             "is_active": true,
             "content": {
-              "id": "0c6e2e4e-78dd-4e53-b5f6-2c9b793feccc",
-              "section_id": "0a07df4f-b9fb-45f5-843a-f5ae513d0e61",
-              "title": "New Section",
-              "subtitle": "Subtitle",
-              "description": "Description for the new section",
-              "image_url": null,
-              "background_url": null,
-              "cta_text": null,
-              "cta_link": null
+              "title": "Book Your Experience",
+              "subtitle": "Reserve your luxury appointment.",
+              "description": "Fill out the form below to book your exclusive session at Sura Akhila Beauty Salon. Our team will contact you to confirm your appointment.",
+              "cta_text": "Book Now"
+            },
+            "items": []
+          },
+          {
+            "id": "section-contact",
+            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+            "type": "suraakhila_contact",
+            "variant": "1",
+            "position": 7,
+            "is_active": true,
+            "content": {
+              "title": "Contact Us",
+              "subtitle": "We would love to hear from you.",
+              "phone": "+1 234 567 8901",
+              "email": "info@surabeauty.com",
+              "hours": "Mon-Sat: 9am - 8pm",
+              "location": "123 Luxury Ave, City",
+              "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537363153169!3d-37.81627977975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1f1f1f1%3A0x5045675218ce6e0!2sLuxury%20Salon!5e0!3m2!1sen!2sau!4v1620000000000!5m2!1sen!2sau"
+            },
+            "items": []
+          },
+          {
+            "id": "section-footer",
+            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+            "type": "suraakhila_footer",
+            "variant": "1",
+            "position": 8,
+            "is_active": true,
+            "content": {
+              "logo_text": "Sura Akhila",
+              "description": "Luxury. Elegance. You.",
+              "quick_links": [
+                { "label": "Home", "href": "#section-hero" },
+                { "label": "About", "href": "#section-about" },
+                { "label": "Services", "href": "#section-services" },
+                { "label": "Pricing", "href": "#section-pricing" },
+                { "label": "Reviews", "href": "#section-reviews" },
+                { "label": "Book", "href": "#section-booking" },
+                { "label": "Contact", "href": "#section-contact" }
+              ],
+              "address": "123 Luxury Ave, City",
+              "phone": "+1 234 567 8901",
+              "email": "info@surabeauty.com",
+              "copyright": "© 2025 Sura Akhila. All rights reserved."
             },
             "items": []
           }

@@ -28,6 +28,14 @@ const SECTION_MAP = {
   cta_2: dynamic(() => import("@/components/sections/CTA2")),
   team_1: dynamic(() => import("@/components/sections/Team1")),
   team_2: dynamic(() => import("@/components/sections/Team2")),
+  suraakhila_home_1: dynamic(() => import("@/components/sections/SuraAkhilaHome")),
+  suraakhila_about_1: dynamic(() => import("@/components/sections/SuraAkhilaAbout")),
+  suraakhila_services_1: dynamic(() => import("@/components/sections/SuraAkhilaServices")),
+  suraakhila_pricing_1: dynamic(() => import("@/components/sections/SuraAkhilaPricing")),
+  suraakhila_reviews_1: dynamic(() => import("@/components/sections/SuraAkhilaReviews")),
+  suraakhila_contact_1: dynamic(() => import("@/components/sections/SuraAkhilaContact")),
+  suraakhila_booking_1: dynamic(() => import("@/components/sections/SuraAkhilaBooking")),
+  suraakhila_footer_1: dynamic(() => import("@/components/sections/SuraAkhilaFooter")),
 };
 
 export default function PageContent({ page, sections, theme, config }) {
