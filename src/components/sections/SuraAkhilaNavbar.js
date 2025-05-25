@@ -25,7 +25,7 @@ function scrollToSection(e, href, setOpen, setActive) {
   if (setOpen) setOpen(false);
 }
 
-export default function SuraAkhilaNavbar({ logoText = "Sura Akhila" }) {
+export default function SuraAkhilaNavbar({ logoText = "Velvet Touch" }) {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState("#section-hero");
 
