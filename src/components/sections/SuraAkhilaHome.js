@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Sparkles, Star } from "lucide-react";
 
-export default function SuraAkhilaHome({ content, theme }) {
+export default function MySalonHome({ content, theme }) {
   const handleBookNow = (e) => {
     e.preventDefault();
     const bookingSection = document.getElementById('section-booking');

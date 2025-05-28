@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-export default function SuraAkhilaAbout({ content }) {
+export default function MySalonAbout({ content }) {
   return (
     <section
       id="section-about"
@@ -67,7 +67,7 @@ export default function SuraAkhilaAbout({ content }) {
 
           <p className="text-lg leading-relaxed text-pink-800 mb-12 max-w-xl mx-auto md:mx-0 tracking-wide font-serif">
             {content.description ||
-              "At Sura Akhila, we believe beauty is an experience. Our journey began with a passion for elegance and a commitment to excellence. We blend artistry, innovation, and care to create a sanctuary for self-renewal."}
+              "At My Salon, we believe beauty is an experience. Our journey began with a passion for elegance and a commitment to excellence. We blend artistry, innovation, and care to create a sanctuary for self-renewal."}
           </p>
 
           <button

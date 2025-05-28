@@ -67,7 +67,7 @@
         "id": "a6452a55-af24-40db-9490-42852c3e7b9a",
         "site_id": "4fafcd74-7ba1-48a2-937f-4a46a5010c37",
         "slug": "home",
-        "title": "Sura Akhila Beauty Salon",
+        "title": "My Salon Beauty Salon",
         "sections": [
           {
             "id": "section-hero",
@@ -93,7 +93,7 @@
             "content": {
               "title": "Our Story",
               "subtitle": "Vision & Values",
-              "description": "At Sura Akhila, we believe beauty is an experience. Our journey began with a passion for elegance and a commitment to excellence. We blend artistry, innovation, and care to create a sanctuary for self-renewal.",
+              "description": "At My Salon, we believe beauty is an experience. Our journey began with a passion for elegance and a commitment to excellence. We blend artistry, innovation, and care to create a sanctuary for self-renewal.",
               "image_url": "/about-salon.jpg"
             },
             "items": []
@@ -231,7 +231,7 @@
               },
               {
                 "id": "service-20",
-                "title": "Men’s Styling",
+                "title": "Men's Styling",
                 "description": "Trendy and tailored haircuts and styling for the modern man.",
                 "image_url": "/services/men1.jpg"
               },
@@ -360,7 +360,7 @@
             "content": {
               "title": "Book Your Experience",
               "subtitle": "Reserve your luxury appointment.",
-              "description": "Fill out the form below to book your exclusive session at Sura Akhila Beauty Salon. Our team will contact you to confirm your appointment.",
+              "description": "Fill out the form below to book your exclusive session at My Salon Beauty Salon. Our team will contact you to confirm your appointment.",
               "cta_text": "Book Now"
             },
             "items": []
@@ -375,10 +375,10 @@
             "content": {
               "title": "Contact Us",
               "subtitle": "We would love to hear from you.",
-              "phone": "+1 234 567 8901",
+              "phone": "+15408917222",
               "email": "info@surabeauty.com",
               "hours": "Mon-Sat: 9am - 8pm",
-              "location": "123 Luxury Ave, City",
+              "location": "Fredericksburg, VA",
               "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537363153169!3d-37.81627977975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1f1f1f1%3A0x5045675218ce6e0!2sLuxury%20Salon!5e0!3m2!1sen!2sau!4v1620000000000!5m2!1sen!2sau"
             },
             "items": []
@@ -391,7 +391,7 @@
             "position": 8,
             "is_active": true,
             "content": {
-              "logo_text": "Sura Akhila",
+              "logo_text": "My Salon",
               "description": "Luxury. Elegance. You.",
               "quick_links": [
                 { "label": "Home", "href": "#section-hero" },
@@ -402,10 +402,10 @@
                 { "label": "Book", "href": "#section-booking" },
                 { "label": "Contact", "href": "#section-contact" }
               ],
-              "address": "123 Luxury Ave, City",
-              "phone": "+1 234 567 8901",
+              "address": "Fredericksburg, VA",
+              "phone": "+15408917222",
               "email": "info@surabeauty.com",
-              "copyright": "© 2025 Sura Akhila. All rights reserved."
+              "copyright": "© 2025 My Salon. All rights reserved."
             },
             "items": []
           }

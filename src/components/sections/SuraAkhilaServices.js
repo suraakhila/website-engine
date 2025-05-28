@@ -41,7 +41,7 @@ const SERVICE_CATEGORIES = [
   { value: "men", label: "Men" },
 ];
 
-export default function SuraAkhilaServices({ content, items }) {
+export default function MySalonServices({ content, items }) {
   const [showAll, setShowAll] = useState(false);
   const [filter, setFilter] = useState("all");
 

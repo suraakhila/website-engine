@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { getClientSingleton } from '@/lib/supabase/client';
 import { Button } from "@/components/ui/button";
 
-export default function SuraAkhilaContact({ content }) {
+export default function MySalonContact({ content }) {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
   const [status, setStatus] = useState(null);
   const [errorMsg, setErrorMsg] = useState("");

@@ -25,7 +25,7 @@ const PRICING_PACKAGES = [
   },
 ];
 
-export default function SuraAkhilaPricing() {
+export default function MySalonPricing() {
   const handleBook = (e) => {
     e.preventDefault();
     const bookingSection = document.getElementById('section-booking');

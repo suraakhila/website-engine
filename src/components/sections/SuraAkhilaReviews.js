@@ -6,7 +6,7 @@ const DEFAULT_REVIEWS = [
   { id: "review-6", title: "Lina P.", subtitle: "Blogger", description: "The best salon in town for luxury treatments. I keep coming back!", image_url: "/reviews/lina.jpg", rating: 5 },
 ];
 
-export default function SuraAkhilaReviews({ content, items }) {
+export default function MySalonReviews({ content, items }) {
   const [showAll, setShowAll] = React.useState(false);
   const allReviews = items && items.length ? items : DEFAULT_REVIEWS;
   const visibleReviews = showAll ? allReviews : allReviews.slice(0, 3);

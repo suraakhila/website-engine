@@ -40,7 +40,7 @@ function Button({ children, className, ...props }) {
   );
 }
 
-export default function SuraAkhilaBooking() {
+export default function MySalonBooking() {
   const [form, setForm] = useState({
     name: '',
     age: '',

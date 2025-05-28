@@ -13,7 +13,7 @@ const QUICK_LINKS = [
   { label: 'LinkedIn', href: 'https://linkedin.com/' },
 ];
 
-export default function SuraAkhilaFooter({ content }) {
+export default function MySalonFooter({ content }) {
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState(null);
   const [errorMsg, setErrorMsg] = useState('');
@@ -67,13 +67,13 @@ export default function SuraAkhilaFooter({ content }) {
         <div className="flex-1 min-w-[250px] px-3 py-2">
           <h5 className="font-extrabold text-pink-600 text-lg mb-4 tracking-wide">CONTACT</h5>
           <p className="text-neutral-700 dark:text-neutral-200 mb-3">
-            Tel: <span className="font-semibold">{content?.phone || '07848019264'}</span>
+            Tel: <span className="font-semibold">{content?.phone || '+15408917222'}</span>
           </p>
           <p className="text-neutral-700 dark:text-neutral-200 mb-3">
-            Email: <span className="font-semibold">{content?.email || 'suraakhila9@gmail.com'}</span>
+            Email: <span className="font-semibold">{content?.email || 'mysalon@gmail.com'}</span>
           </p>
           <p className="text-neutral-700 dark:text-neutral-200 mb-0">
-            Address: <span className="font-semibold">{content?.address || 'Hyderabad, India'}</span>
+            Address: <span className="font-semibold">{content?.address || 'Fredericksburg, VA'}</span>
           </p>
         </div>
 
